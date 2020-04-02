@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>CityOfHiddenApes.ReColor</AssemblyName>
+        <PackageId>CityOfHiddenApes.ReColor</PackageId>
+        <Title>ReColor</Title>
+        <Authors>Imbaker1234</Authors>
+        <Description>An expanded list of colors and extension methods for Discord.NET colors.</Description>
+        <Copyright>2020</Copyright>
+        <PackageProjectUrl>https://github.com/Imbaker1234/CityOfHiddenApes.Discord</PackageProjectUrl>
+        <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <PackageIconUrl>https://i.ibb.co/bzyy9pY/t-55.png</PackageIconUrl>
+        <RepositoryUrl>https://github.com/Imbaker1234/CityOfHiddenApes.Discord</RepositoryUrl>
+        <PackageTags>Discord.NET, Colors</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Discord.Net.Commands" Version="2.1.1" />
+      <PackageReference Include="Discord.Net.Core" Version="2.1.1" />
+    </ItemGroup>
+
+</Project>
